@@ -26,8 +26,6 @@
 body {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgb(162, 38, 245) 0%, rgba(255,255,255,1) 100%);  
-
-    margin-bottom: 5rem;
 }
 
 .screen1 header {
@@ -95,7 +93,7 @@ h3 {
     padding: 0 10rem;
 
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 5rem;
 
     width: 80%;
 

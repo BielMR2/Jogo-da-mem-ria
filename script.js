@@ -121,6 +121,7 @@ function virarCarta6() {
     verificar(classList, this, firstCard)
 }
 
+
 mona1.addEventListener("click", virarCarta1)
 
 mona2.addEventListener("click", virarCarta1)
