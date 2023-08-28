@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen1 ">
+        <header>
+            <h1>~ Jogo da memória das artes ~</h1>
+        </header>
+        
+        <form>
+            <input type="button" value="P vs P" id="start">
+        </form>
+    </div>
+
+    <div class="screen2 hide">
+        <header>
+            <h1>~ Jogo da memória das artes ~</h1>
+        </header>
+        <div class="punctuation">
+            <h3 id="blue">Pessoa 1 = Pontuação: <span id="points1">0</span></h3>
+            <h3 id="red">Pessoa 1 = Pontuação: <span id="points2">0</span></h3>
+        </div>
+        <ul class="gallery">
+
+                <li class="item card turned" id="mona1">
+                    <img src="./assets/download.jfif">
+    
+                    <figcaption class="details">
+                        <h2>Monalisa</h2>
+                        <span>Leonardo da Vinci</span>
+                    </figcaption>
+                </li>
+            
+                <li class="item card turned" id="mona2" style="--delay:.5s">
+                    <img src="./assets/download.jfif">
+    
+                    <figcaption class="details">
+                        <h2>Monalisa</h2>
+                        <span>Leonardo da Vinci</span>
+                    </figcaption>
+                </li>
+            
+                <li class="item card turned" id="gira1" style="--delay:.6s">
+                    <img src="./assets/m_VanGoghGirassoisNational.webp">
+    
+                    <figcaption class="details">
+                        <h2>Doze Girassóis numa Jarra</h2>
+                        <span>Vincent van Gogh</span>
+                    </figcaption>
+                </li>
+            
+                <li class="item card turned" id="gira2" style="--delay:.7s">
+                    <img src="./assets/m_VanGoghGirassoisNational.webp">
+    
+                    <figcaption class="details">
+                        <h2>Doze Girassóis numa Jarra</h2>
+                        <span>Vincent van Gogh</span>
+                    </figcaption>
+                </li>
+           
+                <li class="item card turned" id="grito1" style="--delay:.8s">
+                    <img src="./assets/ogrito-cke.webp">
+    
+                    <figcaption class="details">
+                        <h2>O grito</h2>
+                        <span>Edvard Munch</span>
+                    </figcaption>
+                </li>
+           
+                <li class="item card turned" id="grito2" style="--delay:.9s">
+                    <img src="./assets/ogrito-cke.webp">
+    
+                    <figcaption class="details">
+                        <h2>O grito</h2>
+                        <span>Edvard Munch</span>
+                    </figcaption>
+                </li>
+
+                <li class="item card turned" id="night1" style="--delay:1s">
+                    <img src="./assets/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg">
+    
+                    <figcaption class="details">
+                        <h2>A Noite Estrelada</h2>
+                        <span>Vincent van Gogh</span>
+                    </figcaption>
+                </li>
+
+                <li class="item card turned" id="night2" style="--delay:1.2s">
+                    <img src="./assets/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg">
+    
+                    <figcaption class="details">
+                        <h2>A Noite Estrelada</h2>
+                        <span>Vincent van Gogh</span>
+                    </figcaption>
+                </li>
+
+                <li class="item card turned" id="aba1" style="--delay:1.2s">
+                    <img src="./assets/_106293057_525769e3-ee92-45f0-8f05-c6d154dcca7b.jpg">
+    
+                    <figcaption class="details">
+                        <h2>Abaporu</h2>
+                        <span>Tarsila do Amaral</span>
+                    </figcaption>
+                </li>
+
+                <li class="item turned card turned" id="aba2" style="--delay:1.3s">
+                    <img src="./assets/_106293057_525769e3-ee92-45f0-8f05-c6d154dcca7b.jpg">
+    
+                    <figcaption class="details">
+                        <h2>Abaporu</h2>
+                        <span>Tarsila do Amaral</span>
+                    </figcaption>
+                </li>
+
+                <li class="item turned card turned" id="setik1" style="--delay:1.4s">
+                    <img src="./assets/H0046-L25121260.jpg">
+    
+                    <figcaption class="details">
+                        <h2>Bataille de stiklestad</h2>
+                        <span>Peter Nicolai Arbo</span>
+                    </figcaption>
+                </li>
+
+                <li class="item turned card turned" id="setik2" style="--delay:1.5s">
+                    <img src="./assets/H0046-L25121260.jpg">
+    
+                    <figcaption class="details">
+                        <h2>Bataille de stiklestad</h2>
+                        <span>Peter Nicolai Arbo</span>
+                    </figcaption>
+                </li>
+            
+        </ul>
+
+    </div>
+    
+    <div class="screen2 hide">
+        <h1>asdas</h1>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
